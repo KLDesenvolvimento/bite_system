@@ -60,7 +60,6 @@
 
 <!-- ============================================================== -->
 
-
 <div class="row">
 
 	<div class="col-12">
@@ -98,7 +97,12 @@
 								
 								<tr>
 
-									<td><?php trim( $row->nome ) ?></td>
+									<td><?php echo trim( $row->nome ) ?></td>
+									<td><?php echo trim( $row->cpf ) ?></td>
+									<td><?php echo trim( $row->telefone ) ?></td>
+									<td><?php echo trim( $row->celular ) ?></td>
+									<td><?php echo trim( $row->email ) ?></td>
+									<td><?php echo trim( $row->cep ) ?></td>
 
 								</tr>
 
