@@ -40,7 +40,7 @@
 
 			$dados['clientes'] = $this->ClienteDao->get_cliente();
 
-			$includes = "<script type='text/javascript' src='".base_url()."assets/js/cadastro/cliente/cliente.js'></script>";
+			$includes = "<script type='text/javascript' src='".base_url()."assets/js/consulta/cliente/cliente.js'></script>";
 			$data['includes'] = $includes;
 
 			$this->load->view('includes/header');
